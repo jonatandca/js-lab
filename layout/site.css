@@ -1,0 +1,46 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+
+header {
+	width: 100%;
+	height: 42px;
+	text-align: center;
+	border: 1px solid silver;
+}
+
+header>h3 {
+	margin: 0;
+}
+
+footer {
+	border: 1px solid silver;
+	text-align: center;
+}
+
+aside {
+	border: 1px solid silver;
+	width: 15%;
+	float: left;
+	margin: 10px 0 10px 0;
+}
+
+article {
+	border: 1px solid silver;
+	margin: 10px 0px 10px 10px;
+	width: 84%;
+	float: left;
+}
+
+footer {
+	clear: both;
+	height: 42px;
+	width: 100%;
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	margin-bottom: 0px;
+}
